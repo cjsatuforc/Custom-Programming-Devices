@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2048,15 +2048,13 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <sheets>
 <sheet>
 <plain>
-<text x="101.6" y="-17.78" size="2.54" layer="94">CC Attrib &amp; Share Alike</text>
-<text x="101.6" y="-12.7" size="2.54" layer="94">FTDI Friend! A breakout board+ from adafruit.com</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="-48.26" y="-43.18"/>
-<instance part="FRAME1" gate="G$2" x="99.06" y="-43.18"/>
-<instance part="CN2" gate="G$1" x="182.88" y="73.66" rot="R180"/>
-<instance part="JP1" gate="G$1" x="139.7" y="73.66"/>
-<instance part="JP3" gate="G$1" x="119.38" y="71.12"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
+<instance part="CN2" gate="G$1" x="154.94" y="101.6" rot="R180"/>
+<instance part="JP1" gate="G$1" x="111.76" y="101.6"/>
+<instance part="JP3" gate="G$1" x="91.44" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -2064,59 +2062,59 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <net name="GND" class="0">
 <segment>
 <pinref part="CN2" gate="G$1" pin="GND"/>
-<wire x1="172.72" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
-<label x="162.56" y="78.74" size="1.778" layer="95"/>
+<wire x1="144.78" y1="106.68" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
+<label x="134.62" y="106.68" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="5"/>
-<wire x1="134.62" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
-<junction x="147.32" y="78.74"/>
+<wire x1="106.68" y1="106.68" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
+<junction x="119.38" y="106.68"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="78.74" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="106.68" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RTSDTR" class="0">
 <segment>
 <pinref part="CN2" gate="G$1" pin="ID"/>
-<wire x1="172.72" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
-<label x="162.56" y="76.2" size="1.778" layer="95"/>
+<wire x1="144.78" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
+<label x="134.62" y="104.14" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="4"/>
-<wire x1="134.62" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
-<junction x="147.32" y="76.2"/>
+<wire x1="106.68" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
+<junction x="119.38" y="104.14"/>
 <pinref part="JP3" gate="G$1" pin="6"/>
-<wire x1="134.62" y1="76.2" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="104.14" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCCOUT" class="0">
 <segment>
 <pinref part="CN2" gate="G$1" pin="VBUS"/>
-<wire x1="172.72" y1="68.58" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
-<label x="162.56" y="68.58" size="1.778" layer="95"/>
+<wire x1="144.78" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
+<label x="134.62" y="96.52" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="68.58" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
-<junction x="147.32" y="68.58"/>
+<wire x1="106.68" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
+<junction x="119.38" y="96.52"/>
 <pinref part="JP3" gate="G$1" pin="3"/>
-<wire x1="124.46" y1="71.12" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="99.06" x2="106.68" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="CN2" gate="G$1" pin="D+"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="172.72" y1="71.12" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
-<junction x="147.32" y="73.66"/>
+<wire x1="144.78" y1="99.06" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="101.6" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
+<junction x="119.38" y="101.6"/>
 <pinref part="JP3" gate="G$1" pin="5"/>
-<wire x1="124.46" y1="76.2" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="104.14" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <pinref part="CN2" gate="G$1" pin="D-"/>
-<wire x1="147.32" y1="71.12" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
-<junction x="147.32" y="71.12"/>
+<wire x1="119.38" y1="99.06" x2="144.78" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="99.06" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
+<junction x="119.38" y="99.06"/>
 <pinref part="JP3" gate="G$1" pin="4"/>
-<wire x1="124.46" y1="73.66" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="101.6" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

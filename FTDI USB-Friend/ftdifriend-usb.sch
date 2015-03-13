@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12215,8 +12215,6 @@ LETTER landscape</description>
 <sheets>
 <sheet>
 <plain>
-<text x="101.6" y="-17.78" size="2.54" layer="94">CC Attrib &amp; Share Alike</text>
-<text x="101.6" y="-12.7" size="2.54" layer="94">FTDI Friend! A breakout board+ from adafruit.com</text>
 <text x="101.6" y="71.12" size="1.778" layer="97">CTS-&gt;GND</text>
 </plain>
 <instances>
